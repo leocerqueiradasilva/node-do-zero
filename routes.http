@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video 4 NodeJs Avançado",
+    "description": "Esse é o último video",
+    "duration": 500
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/f375c749-35b7-4a0b-9a9f-613bdde01cb0
+Content-Type: application/json
+
+{
+    "title": "Video 2 javascript",
+    "description": "Esse é o segundo video",
+    "duration": 240
+}
+
+###
+
+DELETE http://localhost:3333/videos/b2e8c738-bcfc-44bd-b165-4bf0161a3e40
